@@ -1,0 +1,5 @@
+ini adalah data teks yang di buat dengan phytoh 3
+inibaris ke dua
+inibaris ke tiga
+inibaris ke empat
+baris ini dibuat dengan appending mode

@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+	<title>Border Radius</title>
+	<style>
+	.kotak {
+		width: 150px;
+		height: 150px;
+		margin: 20px;
+		float: left;
+	}
+	.kotak1 {
+		border: 8px solid #ccc;
+		border-radius: 10px;
+	}
+
+	.kotak2 {
+		border: 10px solid red;
+		border-top-left-radius:60px;
+		border-bottom-right-radius: 60px; 
+	}
+
+	.kotak3 {
+		border: 10px solid green;
+		border-radius: 100px;
+	}
+
+	.kotak4 {
+		height:70px;
+		border: 10px solid blue;
+		border-radius: 100px 100px 0 0;
+	}
+
+	.kotak5 {
+		margin-top: 110px;
+		height:70px;
+		border: 10px solid blue;
+		border-radius: 0 0 100px 100px;
+	}
+
+	.kotak6 {
+		border: 10px solid orange;
+		border-radius: 20px 100px 100px 20px;
+	}
+	</style>
+</head>
+<body>
+
+	<div class="kotak kotak1"></div>
+	<div class="kotak kotak2"></div>
+	<div class="kotak kotak3"></div>
+	<div class="kotak kotak4"></div>
+	<div class="kotak kotak5"></div>
+	<div class="kotak kotak6"></div>
+
+</body>
+</html>

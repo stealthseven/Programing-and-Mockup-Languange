@@ -1,0 +1,22 @@
+.satu, .dua, .tiga {
+	width: 200px;
+	height: 200px;
+	position: absolute;
+}
+
+.satu {
+	background-color: limegreen;
+}
+
+.dua {
+	background-color: lightblue;
+	top: 100px;
+	left: 100px;
+	z-index: 9999;
+}
+
+.tiga {
+	background-color: gold;
+	top: 200px;
+	left: 200px;
+}

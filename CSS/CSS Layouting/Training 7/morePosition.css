@@ -1,0 +1,12 @@
+body {
+	height: 20000px;
+}
+
+.kotak {
+	height: 20px;
+	background-color: gold;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	opacity: 0.7;

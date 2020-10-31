@@ -1,0 +1,36 @@
+h1 {
+    color: gold;
+    padding: 20px 0 0 0;
+}
+
+body {
+    text-align: center;
+    background-color: white;
+}
+
+.container {
+    height: 800px;
+    width: 500px;
+    margin: 50px auto;
+    background-color: rgb(172, 157, 71);
+}
+
+button {
+    height: 40px;
+    width: 100px;
+    border-radius: 4px;
+}
+
+
+/* colorChange */
+.colorChange1 {
+    background-color: blue;
+}
+
+.colorChange2 {
+    color: lightblue;
+}
+
+.colorChange3 {
+    background-color: aqua;
+}

@@ -1,0 +1,57 @@
+.button {
+	height: 190px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 50%);
+}
+.button a {
+	width: 100px;
+	display: block;
+	text-align: center;
+	background :#0e153a;
+	border-radius: 4px;
+	padding: 5px;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+	transition: .3s all ease-in-out;
+}
+.button a .text {
+	display: block;
+	height: 45px;
+	line-height: 45px;
+	color: #fff;
+	transition: .3s all ease-in-out;
+}
+.button a .progress {
+	background :#0e153a;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 0;
+}
+
+.button.connect a {
+	backgrount: #e5e5e5;
+	width: 0;
+	padding: 5px 0;
+	float: right;
+	transition: .3s ease-in-out 2.0s, .3s padding ease-in-out 2.0s;
+}
+
+.button.connect a .text{
+	animation: textHeight .6s ease-in-out forwards ;
+	overflow: hidden;
+}
+.button.connect a .progress {
+	width: 100% ;
+	transition: 1.4s width ease-out .6s;
+}
+.button.conected a {
+	display: none;s
+}
+
+

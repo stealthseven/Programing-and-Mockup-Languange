@@ -1,0 +1,21 @@
+.satu {
+	width: 200px;
+	height: 200px;
+	background-color: yellow;
+	margin:30px 60px 30px 42px; <!-- margin berputas dari atas searah jarum jam-->
+}
+.dua {
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	margin:20px;
+}
+
+.tiga {
+	width: 50px;
+	height: 59px;
+	background-color: grey;
+	margin-left: auto;
+	margin-right: auto;
+}
+

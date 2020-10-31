@@ -1,0 +1,26 @@
+body{
+	font-family: arial;
+}
+h1, h2 {
+	color: grey;
+}
+
+ul li a {
+	color: gold; 
+}
+
+ol li a {
+	color: red;
+}
+
+#p1 {
+	color: gold;
+}
+
+.p2 {
+	color: silver;
+}
+
+.p2a {
+	font-weight: bold;
+}
