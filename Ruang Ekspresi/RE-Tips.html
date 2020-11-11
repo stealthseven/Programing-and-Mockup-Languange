@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: white;
+        }
+
+        .container {
+            height: 800px;
+            width: 500px;
+            margin: 50px auto;
+            background-color: rgb(172, 157, 71);
+        }
+
+        .tombol {
+            display: block;
+            padding: 15px;
+            text-align: center;
+            color :black;
+            background-color: white;
+            height: ;
+            width: 100px;
+            border-radius: 3px;
+            margin-top: 100px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .tombol:hover {
+            color: aliceblue;
+            transition: 0.3s;
+            background-color: rgb(0, 70, 102);
+            transform: scale(1);
+
+        }
+    </style>
+</head>
+<body>
+    <span class="tombol"> Random Color </span>
+    <script>
+        
+        const randomButton = document.querySelector(".tombol")
+        randomButton.addEventListener('click', function () {
+            const r = Math.round(Math.random() * 255 + 1);
+            const g = Math.round(Math.random() * 255 + 1);
+            const b = Math.round(Math.random() * 255 + 1);
+            document.body.style.backgroundColor = 'rgb(' + r + ',' + g + ',' + b + ')';
+            });
+        
+    </script>
+</body>
+</html>
