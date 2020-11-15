@@ -44,22 +44,14 @@
     </style>
 </head>
 <body>
-    <span class="tombol"> Random Color </span>
+    <p class="tombol">Pencet Aku</p>
     <script>
-        
+        var hasil ;
         const randomButton = document.querySelector(".tombol")
-        randomButton.addEventListener('click', function () {
-            const r = Math.round(Math.random() * 255 + 1);
-            const g = Math.round(Math.random() * 255 + 1);
-            const b = Math.round(Math.random() * 255 + 1);
-            document.body.style.backgroundColor = 'rgb(' + r + ',' + g + ',' + b + ')';
-            });
-        var ZX ;
         randomButton.addEventListener('click', function(){
-            ZX = Math.random()
-            console.log(ZX);
+            hasil = Math.random()
+            console.log(hasil);
         })
-        
     </script>
 </body>
 </html>
