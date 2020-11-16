@@ -46,7 +46,6 @@
 <body>
     <span class="tombol"> Random Color </span>
     <script>
-        
         const randomButton = document.querySelector(".tombol")
         randomButton.addEventListener('click', function () {
             const r = Math.round(Math.random() * 255 + 1);
@@ -54,12 +53,6 @@
             const b = Math.round(Math.random() * 255 + 1);
             document.body.style.backgroundColor = 'rgb(' + r + ',' + g + ',' + b + ')';
             });
-        var ZX ;
-        randomButton.addEventListener('click', function(){
-            ZX = Math.random()
-            console.log(ZX);
-        })
-        
     </script>
 </body>
 </html>
