@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>keranjang</h1>
+    <div class="isiKeranjang"> isi Keranjang : </div>
+    <script>
+        // Selector 
+        const keranjang = document.querySelector(".isiKeranjang");
+        // ES5
+        // function addProduct(pName, pCategory) {
+        //     return {
+        //         name: pName,
+        //         category: pCategory
+        //     }
+        // }
+
+        // var getProduct = addProduct("Nvidia RTX 3080", "VGA Card");
+        // console.log(getProduct);
+        // ES6
+        function addProduct(pName, pCategory) {
+            return {
+                pName,
+                pCategory
+            }
+        }
+
+        var getProduct = addProduct("Nvidia RTX 3080", "VGA Card");
+        console.log(getProduct);
+
+        // show on HTML
+        keranjang.innerHTML = ` nama product : ${getProduct.pName} category : ${getProduct.pCategory}`
+    </script>
+
+</body>
+
+</html>
