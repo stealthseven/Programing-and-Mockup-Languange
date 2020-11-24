@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="show"></div>
+    <script>
+        const show = document.querySelectorAll(".show");
+
+        class Member {
+            constructor(username, password, idKelas) {
+                this.username = username;
+                this.password = password;
+                this.idKelas = idKelas;
+            }
+
+            daftar() {
+                console.log(this.username + " telah mendaftar kelas malam dengan id : " + this.idKelas)
+            }
+        }
+
+        let tambahMember = new Member("budi123", "soklaojd", 14);
+        tambahMember.daftar();
+
+        class langganan extends Member {
+            constructor(username, paket) {
+                super(username);
+                this.paket = paket;
+            }
+            daftarPaketan() {
+                console.log("hi" + this.username + " telah langganan paket " + this.paket);
+
+            }
+        };
+        var tambahLangganan = new langganan("ucup123", "premium");
+        tambahLangganan.daftarPaketan();
+    </script>
+</body>
+
+</html>

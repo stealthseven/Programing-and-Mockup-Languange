@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Skill Primary</h1>
+    <div class="show">
+
+    </div>
+    <script>
+        const showDOM = document.getElementsByClassName("show")[0];
+        const kemampuanKu = ["ux design", "ui design", "3d design", "vidio editor"]
+
+        const showSkill = kemampuanKu.filter(skill => {
+            return skill === "ux design";
+        });
+
+        showDOM.innerHTML = `${showSkill}`
+    </script>
+</body>
+
+</html>
